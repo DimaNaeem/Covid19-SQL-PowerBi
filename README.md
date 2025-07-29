@@ -56,7 +56,8 @@ This project is a comprehensive analysis of global COVID-19 data using **SQL** f
 | Global Death Rate    | 1.12%           |
 
 ### SQL Insights
-- **Highest Death Rates**: Countries like Yemen and Sudan showed death rates above 5%. 
+### Highest Death Rates by Country
+```sql
 SELECT 
     location, 
     ROUND(MAX(death_rate) * 100, 2) AS max_death_rate_percentage
@@ -71,8 +72,12 @@ HAVING
 ORDER BY 
     max_death_rate_percentage DESC;
 
-![SQL Query Output](top 5 countries death rate.png) 
-  *(Top 5 countries by death rate)*
+Key Findings:
+
+Yemen had the highest death rate at 18.73%.
+
+Sudan, Peru, Syria, and Mexico also exceeded 5%.
+
 - 
 - **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.< ! i want to insert my sql result>
 - **Infection Peaks**: Waves correlated with seasonal patterns (e.g., winter surges).
