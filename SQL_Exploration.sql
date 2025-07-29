@@ -49,6 +49,24 @@ FROM covid_cleaned;
 /* 1. Global Totals
 
 
+Find countries with death rates above 5% (death_rate = total_deaths / total_cases)
+
+SELECT 
+    location,
+    SUM(total_cases) AS total_cases,
+    SUM(total_deaths) AS total_deaths,
+    ROUND(SUM(total_deaths) * 1.0 / NULLIF(SUM(total_cases), 0) * 100, 2) AS death_rate_percent
+FROM 
+    covid_cleaned
+WHERE 
+    continent IS NOT NULL
+GROUP BY 
+    location
+HAVING 
+    death_rate_percent > 5
+ORDER BY 
+    death_rate_percent DESC;
+
 //2. Deaths per Continent
 
 SELECT 
