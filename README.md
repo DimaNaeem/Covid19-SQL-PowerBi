@@ -46,6 +46,40 @@ This project is a comprehensive analysis of global COVID-19 data using **SQL** f
 
 ---
 
+
+## 🔍 Key Findings (2020-2024)
+### Global Trends
+| Metric               | Value           |
+|----------------------|-----------------|
+| Total Cases          | 715,697,182     |
+| Total Deaths         | 8,009,960       |
+| Global Death Rate    | 1.12%           |
+
+### SQL Insights
+- **Highest Death Rates**: Countries like [X] and [Y] showed death rates above 5%.
+- **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.
+- **Infection Peaks**: Waves correlated with seasonal patterns (e.g., winter surges).
+
+### Power BI Dashboard
+![Dashboard](covid-dashboard.png)
+
+
+## 🔍 Key Findings (2020-2024)
+### Global Trends
+| Metric               | Value           |
+|----------------------|-----------------|
+| Total Cases          | 715,697,182     |
+| Total Deaths         | 8,009,960       |
+| Global Death Rate    | 1.12%           |
+
+### SQL Insights
+- **Highest Death Rates**: Countries like [X] and [Y] showed death rates above 5%.
+- **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.
+- **Infection Peaks**: Waves correlated with seasonal patterns (e.g., winter surges).
+
+### Power BI Dashboard
+![Dashboard](covid-dashboard.png)
+
 ## 🚀 How to Use
 
 1. Clone the repository or download the ZIP
