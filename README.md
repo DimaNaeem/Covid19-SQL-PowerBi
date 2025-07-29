@@ -1,9 +1,5 @@
-# Covid19-SQL-PowerBi
-A complete COVID-19 data analysis project using SQL and Power BI. Includes data cleaning, data exploration,  transformation in SQL, and interactive dashboard visualizations.
-
-
 # 🦠 COVID-19 Data Analysis Project (SQL + Power BI)
-
+## Overview
 This project is a comprehensive analysis of global COVID-19 data using **SQL** for data cleaning and transformation, and **Power BI** for interactive data visualization. It demonstrates key data analytics skills including data wrangling, DAX measures, visual storytelling, and dashboard design.
 
 ---
@@ -34,11 +30,13 @@ This project is a comprehensive analysis of global COVID-19 data using **SQL** f
 
 ## 📁 File Structure
 
----
+- `covid_analysis.sql`: SQL queries for data exploration.
+- `covid_dashboard.pbix`: Power BI dashboard.
 
 ## 📈 Key Insights & Visuals
 
 - **Global COVID KPIs** – Total cases, deaths, vaccinations
+- **Global death rate: *X%
 - **Continent Breakdown** – Infections, deaths, vaccination rates
 - **Infection Rate vs Death Rate** – Country-level correlation
 - **Population vs Cases Bubble Chart**
@@ -56,6 +54,10 @@ This project is a comprehensive analysis of global COVID-19 data using **SQL** f
 4. Explore the visualizations and insights interactively
 
 ---
+
+
+## Screenshots
+![Power BI Dashboard](screenshot.png) 
 
 ## 🧠 Skills Demonstrated
 
