@@ -56,26 +56,30 @@ This project is a comprehensive analysis of global COVID-19 data using **SQL** f
 | Global Death Rate    | 1.12%           |
 
 ### SQL Insights
-- **Highest Death Rates**: Countries like [X] and [Y] showed death rates above 5%.
-- **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.
+- **Highest Death Rates**: Countries like Yemen and Sudan showed death rates above 5%. 
+SELECT 
+    location, 
+    ROUND(MAX(death_rate) * 100, 2) AS max_death_rate_percentage
+FROM 
+    covid_cleaned
+WHERE 
+    continent IS NOT NULL
+GROUP BY 
+    location
+HAVING 
+    max_death_rate_percentage > 5
+ORDER BY 
+    max_death_rate_percentage DESC;
+
+!![SQL Query Output](top 5 countries death rate.png) 
+  *(Top 5 countries by death rate)*
+- 
+- **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.< ! i want to insert my sql result>
 - **Infection Peaks**: Waves correlated with seasonal patterns (e.g., winter surges).
 
 ### Power BI Dashboard
 ![Dashboard](covid-dashboard.png)
 
-
-## 🔍 Key Findings (2020-2024)
-### Global Trends
-| Metric               | Value           |
-|----------------------|-----------------|
-| Total Cases          | 715,697,182     |
-| Total Deaths         | 8,009,960       |
-| Global Death Rate    | 1.12%           |
-
-### SQL Insights
-- **Highest Death Rates**: Countries like [X] and [Y] showed death rates above 5%.
-- **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.
-- **Infection Peaks**: Waves correlated with seasonal patterns (e.g., winter surges).
 
 ### Power BI Dashboard
 ![Dashboard](covid-dashboard.png)
