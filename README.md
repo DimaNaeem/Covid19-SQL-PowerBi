@@ -71,7 +71,7 @@ HAVING
 ORDER BY 
     max_death_rate_percentage DESC;
 
-!![SQL Query Output](top 5 countries death rate.png) 
+![SQL Query Output](top 5 countries death rate.png) 
   *(Top 5 countries by death rate)*
 - 
 - **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.< ! i want to insert my sql result>
