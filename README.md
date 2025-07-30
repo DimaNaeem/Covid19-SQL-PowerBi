@@ -79,15 +79,14 @@ Yemen had the highest death rate at 18.73%.
 Sudan, Peru, Syria, and Mexico also exceeded 5%.
 
 - 
-- **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.< ! i want to insert my sql result>
+- **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.
 - **Infection Peaks**: Waves correlated with seasonal patterns (e.g., winter surges).
 
 ### Power BI Dashboard
 ![Dashboard](covid-dashboard.png)
 
 
-### Power BI Dashboard
-![Dashboard](covid-dashboard.png)
+
 
 ## 🚀 How to Use
 
