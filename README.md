@@ -5,7 +5,7 @@ This project explores global COVID-19 trends using real-world datasets. It inclu
 
 ## 📊 Dashboard Preview
 
-![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](assets/images/Dashboard.png)
 
 ---
 
@@ -85,12 +85,11 @@ HAVING vaccination_rate > 50;
 - **Vaccination Impact**: Nations with >50% vaccination rates saw 30% lower death rates.
 - **Infection Peaks**: Waves correlated with seasonal patterns (e.g., winter surges).
 
-### Power BI Dashboard
-![Dashboard](assets/images/Dashboard.png)
+## Power BI
 
-### 📌 1. Vaccination Rate Trend by Continent
+## 📌 1. Vaccination Rate Trend by Continent
 
-📷 ![Vaccination Trend](assets/images/vaccination_trend.png)
+📷 ![Vaccination Trend](https://github.com/DimaNaeem/Covid19-SQL-PowerBi/blob/main/assets/images/vaccination_trend.png)
 
 This line chart visualizes the percentage of fully vaccinated individuals over time across all continents.
 
@@ -101,7 +100,7 @@ This line chart visualizes the percentage of fully vaccinated individuals over t
 - The visual highlights the **global inequality in vaccine distribution** and the success of early rollout programs in high-income regions.
 
 
-### 📌 2. % Population Infected vs. Death Rate (Scatter Plot)
+## 📌 2. % Population Infected vs. Death Rate (Scatter Plot)
 
 📷 ![Infection vs. Death Scatter](assets/images/infection_vs_death.png)
 
@@ -114,7 +113,7 @@ This scatter plot explores the relationship between **infection rates** and **de
 
 ### 📌 3. Total Deaths vs. Vaccination Rate (Bar Chart)
 
-📷 ![Deaths vs Vaccination](assets/images/deaths_vs_vaccination.png)
+📷 ![Deaths vs Vaccination](assets/images/death_vs_vaccination.png)
 
 This bar chart compares **total COVID-19 deaths** with **full vaccination rates** for the 10 most affected countries.
 
@@ -126,7 +125,7 @@ This bar chart compares **total COVID-19 deaths** with **full vaccination rates*
 
 
 
-
+![Dashboard Preview](assets/images/Dashboard.png)
 ## 🚀 How to Use
 
 1. Clone the repository or download the ZIP
@@ -135,6 +134,12 @@ This bar chart compares **total COVID-19 deaths** with **full vaccination rates*
 4. Explore the visualizations and insights interactively
 
 ---
+## 📊 Dashboard Preview
+
+![Dashboard Preview](assets/images/Dashboard.png)
+
+---
+
 
 
 ## Screenshots
