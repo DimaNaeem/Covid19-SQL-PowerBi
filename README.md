@@ -13,8 +13,8 @@ This project explores global COVID-19 trends using real-world datasets. It inclu
 
 - Analyze global COVID-19 trends over time
 - Compare infection and death rates by region and continent
-- Assess the impact of vaccinations on death and recovery rates
-- Showcase data storytelling using SQL + Power BI
+- Assess the relationship between vaccination coverage and death rates
+- Use SQL for data exploration and Power BI for interactive dashboards
 
 ---
 
@@ -50,7 +50,7 @@ This project explores global COVID-19 trends using real-world datasets. It inclu
 | Global Death Rate    | 1.12%           |
 
 ### Highest Death Rates by Country
-```sql
+
 SELECT 
     location, 
     ROUND(MAX(death_rate) * 100, 2) AS max_death_rate_percentage
@@ -71,7 +71,7 @@ Yemen had the highest death rate at 18.73%.
 
 Sudan, Peru, Syria, and Mexico also exceeded 5%.
 
-
+Countries with relatively low case counts but poor healthcare systems had high death rates. These included nations with limited access to vaccines or overwhelmed hospitals.
 Vaccination vs. Death Rate Analysis
 
 SELECT location, MAX(people_fully_vaccinated_per_hundred) AS vaccination_rate,
@@ -123,27 +123,14 @@ This bar chart compares **total COVID-19 deaths** with **full vaccination rates*
 - Countries like **Russia** and **Mexico** had lower vaccination percentages and relatively higher death rates, possibly reflecting weaker vaccine adoption or availability.
 - Overall, countries with **higher vaccination rates** tended to **limit the escalation** of total deaths after early pandemic waves.
 
+🧠 Key Learnings
+SQL is powerful for extracting trends and joining large datasets.
+
+Power BI helps make data insights more accessible and impactful through visuals.
+
+Vaccination rollout clearly correlated with lower subsequent death growth across countries.
 
 
-![Dashboard Preview](assets/images/Dashboard.png)
-## 🚀 How to Use
-
-1. Clone the repository or download the ZIP
-2. Open `dashboard.pbix` in Power BI Desktop
-3. Review the `.sql` files to see how the data was cleaned and analyzed
-4. Explore the visualizations and insights interactively
-
----
-## 📊 Dashboard Preview
-
-![Dashboard Preview](assets/images/Dashboard.png)
-
----
-
-
-
-## Screenshots
-![Power BI Dashboard](screenshot.png) 
 
 ## 🧠 Skills Demonstrated
 
